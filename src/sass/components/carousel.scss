@@ -1,0 +1,41 @@
+
+section {
+    border: 2px solid red;
+}
+.work-text {
+        z-index: 2;
+}
+.carousel .carousel-item {
+    transition-duration: 0.8s;
+}
+.carousel {
+    max-height: 100vh;
+}
+.carousel-indicators {
+    display: none !important;
+}
+.carousel-control-prev-icon {
+    background-image: url(../../images/chevron-left.svg) !important;
+    width: 30px !important;
+    height: 30px !important;
+    color: black !important;
+}
+.carousel-control-next-icon {
+    background-image: url(../../images/chevron-right.svg) !important;
+    width: 30px !important;
+    height: 30px !important;
+    color: black !important;
+}
+.carousel-item img {
+    width: 100%;
+}
+// @media only screen and (max-width: 1150px) {
+//     .carousel-item img {
+//         width: 50%;
+//     }
+// }
+// @media only screen and (max-width: 800px) {
+//     .carousel-item img {
+//         width: 50%;
+//     }
+// }

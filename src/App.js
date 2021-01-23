@@ -2,6 +2,11 @@ import React from 'react'
 import './sass/style.scss';
 import Nav from "./components/Home/Nav";
 import Header from "./components/Home/Header";
+import WorkOne from "./components/Work/WorkOne";
+import WorkTwo from "./components/Work/WorkTwo";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+
 
 function App() {
   return (
@@ -10,6 +15,10 @@ function App() {
         <Nav></Nav>
         <Header></Header>
       </div>
+        <WorkOne></WorkOne>
+        <WorkTwo></WorkTwo>
+        <About></About>
+        <Contact></Contact>
     </>
   );
 }
