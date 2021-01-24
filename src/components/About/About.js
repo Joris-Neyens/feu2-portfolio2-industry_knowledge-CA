@@ -8,12 +8,14 @@ export default function About() {
     return (
         <section id="about" className="d-flex align-items-center">
             <Container>
-                <div className="text-center pb-5">
-                    <h2>about</h2>
+                <div className="text-center py-5">
+                    <h2 className="pt-5 pt-md-0">about</h2>
                 </div>
                 <Row>
-                    <Col>
-                        <img width={500} className="mr-3" src={Profile} alt="Profile pic placeholder"/>
+                    <Col className="col-12 col-md-6">
+                        <div className="w-100">
+                            <img className="mr-3 w-100" src={Profile} alt="Profile pic placeholder"/>
+                        </div>
                     </Col>
                     <Col><h3 className="mb-3">Im Joris, a Dutch front-end developer 
                     based in Norway.</h3>

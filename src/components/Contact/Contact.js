@@ -12,10 +12,12 @@ export default function Contact() {
                     <h2>Contact</h2>
                 </div>
                 <Row>
-                    <Col>
-                        <img src={Postdue} className="contact-image" alt="pigeon holding a letter"></img>
+                    <Col className="col-12 col-md-6">
+                        <div className=" w-75 w-md-100">
+                            <img src={Postdue} className="contact-image" alt="pigeon holding a letter"></img>
+                        </div>
                     </Col>
-                    <Col><h3>Time for an update or a fresh new start?</h3>
+                    <Col><h3 className="pt-5 pt-md-0">Time for an update or a fresh new start?</h3>
                     <a href="mailto: neyens01@gmail.com" className="btn btn-secondary px-0 mt-3">lets chat!</a>
                     </Col>
                 </Row>

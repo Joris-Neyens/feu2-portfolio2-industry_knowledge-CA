@@ -45,7 +45,7 @@ export default function WorkTwo() {
                 </Carousel>
                 </Col>
             </Row>
-            <Col xs="12" md="9 offset-3" lg="9 offset-3" className="p-0">
+            <Col className="col-12 col-md-9 offset-md-3 p-0">
                 <div className="work-button text-center">
                     <a href="/" id="see-more" className="btn btn-secondary px-0 mt-3">See more soon</a>
                 </div>
