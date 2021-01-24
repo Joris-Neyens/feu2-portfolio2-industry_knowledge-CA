@@ -1,4 +1,12 @@
 .jumbotron {
-    height: 500px !important;
+    max-width: 1200px !important;
+    height: 600px !important;
+    background-image: url(../../images/hero.jpg);
+    background-position: center;
+    margin-bottom: 20px;
+
+    h3 {
+        color: white;
+    }
 
 }

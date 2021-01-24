@@ -7,8 +7,7 @@ import Button from "react-bootstrap/Button";
 
 export default function Contact() {
     return (
-        <section>
-             <section className="d-flex align-items-center">
+             <section id="contact" className="d-flex align-items-center">
             <Container>
                 <Row>
                     <Col>
@@ -20,6 +19,6 @@ export default function Contact() {
                 </Row>
             </Container>
         </section>
-        </section>
+       
     )
 }

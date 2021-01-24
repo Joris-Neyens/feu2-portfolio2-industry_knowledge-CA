@@ -10,35 +10,42 @@ import Button from "react-bootstrap/Button";
 
 export default function WorkTwo() {
     return (
-        <section>
-            <Container className="work-text position-absolute mt-5">
+        <section className="d-flex align-items-center">
+            <Container>
                 <Row>
-                    <Col lg="12, offset-1">                      
-                        <h2>Homepage Science Museum</h2>
+                    <Col xs="12" md="3" lg="3"  className="p-0">
+                        <h3>Homepage Science Museum</h3>
                         <p>Pure Css &amp; HTML</p>
                     </Col>
-                </Row>
-            </Container>
-            <Carousel className="mx-auto w-75 carousel-fade  ">
-                <Carousel.Item interval={1000}>
-                    <img width={700} className="d-block mx-auto" src={Pc} alt="First slide"/>
-                    <Carousel.Caption>
-                        <Button variant="secondary" className="mx-auto">See more</Button>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item interval={1000}>
-                    <img width={700} className="d-block mx-auto" src={Mobile} alt="Third slide"/>
-                    <Carousel.Caption>
-                        <Button variant="secondary" className="mx-auto">See more</Button>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item interval={1000}>
-                    <img width={700} className="d-block mx-auto" src={Tablet} alt="Third slide"/>
-                    <Carousel.Caption>
-                        <Button variant="secondary" className="mx-auto">See more</Button>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+                    <Col xs="12" md="9" lg="9" className="p-0">
+                    <Carousel className="mx-auto w-100 carousel-fade">
+                    <Carousel.Item interval={4000}>
+                    <img
+                        className="d-block mx-auto"
+                        src={Pc}
+                        alt="First slide"
+                    />
+                    </Carousel.Item>
+                    <Carousel.Item interval={4000}>
+                    <img
+     
+                        className="d-block mx-auto"
+                        src={Mobile}
+                        alt="Second slide"
+                    />
+                    </Carousel.Item>
+                    <Carousel.Item interval={4000}>
+                    <img
+ 
+                        className="d-block mx-auto"
+                        src={Tablet}
+                        alt="Third slide"
+                    />
+                    </Carousel.Item>
+                </Carousel>
+                </Col>
+            </Row>
+        </Container>
     </section>
     );
 }

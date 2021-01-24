@@ -1,3 +1,11 @@
+#root {
+    scroll-behavior: smooth;
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
 .home {
     min-height: 100vh;
 }
@@ -6,5 +14,7 @@
     margin: 0 auto;
 }
 section {
+    scroll-snap-align: start;
+    position: relative;
     min-height: 100vh;
 }

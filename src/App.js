@@ -11,10 +11,10 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <>
-      <div className="home">
+      <section id="home" className="home">
         <Nav></Nav>
         <Header></Header>
-      </div>
+      </section>
         <WorkOne></WorkOne>
         <WorkTwo></WorkTwo>
         <About></About>

@@ -1,9 +1,5 @@
-
-section {
-    border: 2px solid red;
-}
 .work-text {
-        z-index: 2;
+    z-index: 2;
 }
 .carousel .carousel-item {
     transition-duration: 0.8s;
@@ -27,15 +23,5 @@ section {
     color: black !important;
 }
 .carousel-item img {
-    width: 100%;
+    width: 90%;
 }
-// @media only screen and (max-width: 1150px) {
-//     .carousel-item img {
-//         width: 50%;
-//     }
-// }
-// @media only screen and (max-width: 800px) {
-//     .carousel-item img {
-//         width: 50%;
-//     }
-// }

@@ -2,3 +2,12 @@ nav {
     height: 120px;
     background-color: white;
 }
+
+nav a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+nav a:hover {
+    color: black;
+}

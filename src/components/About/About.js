@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 export default function About() {
     return (
-        <section className="d-flex align-items-center">
+        <section id="about" className="d-flex align-items-center">
             <Container>
                 <Row>
                     <Col>

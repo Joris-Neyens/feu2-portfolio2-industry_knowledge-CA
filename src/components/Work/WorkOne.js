@@ -9,14 +9,13 @@ import Container from "react-bootstrap/Container";
 
 export default function WorkOne() {
     return (
-      <section className="d-flex align-items-center">
-        <Container >
+      <section id="work" className="d-flex align-items-center">
+        <Container>
      
           <Row>
                 <Col xs="12" md="3" lg="3"  className="p-0">
-                <h1 class="mt-5">Work</h1>
-        <h2>Online shop</h2>
-                
+                <h2 className="mt-5 mb-0">portfolio</h2>
+                <h3>Online shop</h3>
                 <p>Vanilla JS</p>
                 <p>Bootstrap</p>
                 <p>Strapi API</p>
