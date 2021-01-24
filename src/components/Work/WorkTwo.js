@@ -14,7 +14,7 @@ export default function WorkTwo() {
             <Container>
                 <Row>
                     <Col xs="12" md="3" lg="3"  className="mt-5 pt-5">
-                    <h3 className="mb-0">Homepage</h3>
+                    <h3 className="mb-0 mt-5">Homepage</h3>
                     <p>Pure Css &amp; HTML</p>
                     </Col>
                     <Col xs="12" md="9" lg="9" className="p-0">
