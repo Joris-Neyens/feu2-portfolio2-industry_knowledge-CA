@@ -6,7 +6,7 @@ import Pc from "../../images/pc-mockup2.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
+
 
 export default function WorkTwo() {
     return (
@@ -45,6 +45,9 @@ export default function WorkTwo() {
                 </Carousel>
                 </Col>
             </Row>
+            <div className="text-center">
+                <a href="/" id="see-more" className="btn btn-secondary px-0 mt-3">See more soon</a>
+            </div>
         </Container>
     </section>
     );
