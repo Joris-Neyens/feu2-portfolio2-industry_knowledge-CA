@@ -13,12 +13,12 @@ export default function WorkTwo() {
         <section className="d-flex align-items-center">
             <Container>
                 <Row>
-                <Col xs="12" md="3" lg="3"  className="mt-5">
-                <h3 className="mb-0">Homepage</h3>
-                        <p>Pure Css &amp; HTML</p>
+                    <Col xs="12" md="3" lg="3"  className="mt-5 pt-5">
+                    <h3 className="mb-0">Homepage</h3>
+                    <p>Pure Css &amp; HTML</p>
                     </Col>
                     <Col xs="12" md="9" lg="9" className="p-0">
-                    <Carousel className="mx-auto w-100 carousel-fade">
+                    <Carousel className="mx-auto w-100 carousel-fade mt-5">
                     <Carousel.Item interval={4000}>
                     <img
                         className="d-block mx-auto"
@@ -45,9 +45,11 @@ export default function WorkTwo() {
                 </Carousel>
                 </Col>
             </Row>
-            <div className="text-center">
-                <a href="/" id="see-more" className="btn btn-secondary px-0 mt-3">See more soon</a>
-            </div>
+            <Col xs="12" md="9 offset-3" lg="9 offset-3" className="p-0">
+                <div className="work-button text-center">
+                    <a href="/" id="see-more" className="btn btn-secondary px-0 mt-3">See more soon</a>
+                </div>
+            </Col>
         </Container>
     </section>
     );

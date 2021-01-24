@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Postdue from "../../images/postdue.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -8,11 +8,14 @@ export default function Contact() {
     return (
              <section id="contact" className="d-flex align-items-center">
             <Container>
+                <div className="text-center pb-5">
+                    <h2>Contact</h2>
+                </div>
                 <Row>
                     <Col>
-                        <img width={300} className="mr-3 rounded" src="" alt=""/>
+                        <img src={Postdue} className="contact-image" alt="pigeon holding a letter"></img>
                     </Col>
-                    <Col><h2>Time for an update or a fresh new start?</h2>
+                    <Col><h3>Time for an update or a fresh new start?</h3>
                     <a href="mailto: neyens01@gmail.com" className="btn btn-secondary px-0 mt-3">lets chat!</a>
                     </Col>
                 </Row>

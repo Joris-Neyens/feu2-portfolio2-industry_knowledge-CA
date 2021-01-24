@@ -12,7 +12,7 @@ export default function WorkOne() {
     
       <section id="work" className="d-flex align-items-center">
         <Container>
-        <h2 className="mt-5 mb-1">portfolio</h2>
+        <h2 className="mt-5 pt-5 mb-1">portfolio</h2>
           <Row>
                 <Col xs="12" md="3" lg="3"  className="mt-5">
                 <h3 className="mb-0">Online shop</h3>
@@ -48,9 +48,11 @@ export default function WorkOne() {
                 </Carousel>
                 </Col>
             </Row>
-            <div className="text-center">
-                <a href="/" id="see-more" className="btn btn-secondary px-0 mt-3">See more soon</a>
-            </div>
+            <Col xs="12" md="9 offset-3" lg="9 offset-3" className="p-0">
+                <div className="work-button text-center">
+                    <a href="/" id="see-more" className="btn btn-secondary px-0 mt-3">See more soon</a>
+                </div>
+            </Col>
         </Container>
         
       </section>

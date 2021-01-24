@@ -8,12 +8,15 @@ export default function About() {
     return (
         <section id="about" className="d-flex align-items-center">
             <Container>
+                <div className="text-center pb-5">
+                    <h2>about</h2>
+                </div>
                 <Row>
                     <Col>
                         <img width={500} className="mr-3" src={Profile} alt="Profile pic placeholder"/>
                     </Col>
-                    <Col><h2 className="mb-3">Im Joris, a Dutch front-end developer 
-                    based in Norway.</h2>
+                    <Col><h3 className="mb-3">Im Joris, a Dutch front-end developer 
+                    based in Norway.</h3>
                     <p>After 5 year as trainer, adviser and coach I decided to combine my past 
                         experience in organisational psychology with design and coding. 
                         Building websites and that communicate effectively.</p>

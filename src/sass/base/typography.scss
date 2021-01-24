@@ -24,3 +24,9 @@ p {
     font-size: 18px;
     margin-bottom: 0.4rem !important;
 }
+.logo-text {
+    font-family: $font-family-sans-serif !important;
+    font-size: 1.6rem !important;
+    color: $accent !important;
+    text-transform: uppercase;
+}
