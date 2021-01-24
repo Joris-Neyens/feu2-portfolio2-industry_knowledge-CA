@@ -9,13 +9,13 @@ import Container from "react-bootstrap/Container";
 
 export default function WorkOne() {
     return (
+    
       <section id="work" className="d-flex align-items-center">
         <Container>
-     
+        <h2 className="mt-5 mb-1">portfolio</h2>
           <Row>
-                <Col xs="12" md="3" lg="3"  className="p-0">
-                <h2 className="mt-5 mb-0">portfolio</h2>
-                <h3>Online shop</h3>
+                <Col xs="12" md="3" lg="3"  className="mt-5">
+                <h3 className="mb-0">Online shop</h3>
                 <p>Vanilla JS</p>
                 <p>Bootstrap</p>
                 <p>Strapi API</p>
@@ -48,7 +48,11 @@ export default function WorkOne() {
                 </Carousel>
                 </Col>
             </Row>
+            <div className="text-center">
+                <a href="/" id="see-more" className="btn btn-secondary px-0 mt-3">See more soon</a>
+            </div>
         </Container>
+        
       </section>
     );
 }

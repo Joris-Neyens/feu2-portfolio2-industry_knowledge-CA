@@ -1,6 +1,6 @@
 nav {
-    height: 120px;
-    background-color: white;
+    background-color: white !important;
+    z-index: 2;
 }
 
 nav a {
@@ -9,5 +9,6 @@ nav a {
     font-size: 1.2rem;
 }
 nav a:hover {
+    text-decoration: underline $accent;
     color: black;
 }

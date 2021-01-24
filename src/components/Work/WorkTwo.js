@@ -13,8 +13,8 @@ export default function WorkTwo() {
         <section className="d-flex align-items-center">
             <Container>
                 <Row>
-                    <Col xs="12" md="3" lg="3"  className="p-0">
-                        <h3>Homepage Science Museum</h3>
+                <Col xs="12" md="3" lg="3"  className="mt-5">
+                <h3 className="mb-0">Homepage</h3>
                         <p>Pure Css &amp; HTML</p>
                     </Col>
                     <Col xs="12" md="9" lg="9" className="p-0">

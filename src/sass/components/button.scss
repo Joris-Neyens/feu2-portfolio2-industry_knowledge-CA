@@ -1,9 +1,32 @@
+.btn {
+    border: none !important;
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    color: $secondary !important;
+    text-transform: uppercase;
+    font-family: source-sans-pro, sans-serif !important;
+}
+#contact .btn {
+    color: black !important;
+}
+
+.btn-primary {
+  color: $primary !important;
+  background-color: $accent !important;
+  width: 150px;
+  
+}
+.btn-primary:hover {
+    filter: brightness(80%)
+}
 .btn-secondary {
-    background: transparent;
-    border-style: none;
-    border-bottom: 2px solid;
-    border-radius: 0%;
+    background-color: transparent !important;
+    color: $primary !important;
+    border-bottom: solid 3px $accent !important;
+    border-radius: 0% !important;
 }
 .btn-secondary:hover {
-    background: transparent;
+    filter: brightness(80%)
 }

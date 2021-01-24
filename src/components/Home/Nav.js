@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 export default function Nav() {
     return (
-        <nav>
+        <nav  className="fixed-top">
             <Container>
                 <Row>
                         <Col xs="12" md="2" lg="3"></Col>

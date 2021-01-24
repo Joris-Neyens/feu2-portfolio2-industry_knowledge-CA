@@ -1,7 +1,7 @@
 import React from 'react'
 import './sass/style.scss';
 import Nav from "./components/Home/Nav";
-import Header from "./components/Home/Header";
+import Jumbotron from "./components/Home/Jumbotron";
 import WorkOne from "./components/Work/WorkOne";
 import WorkTwo from "./components/Work/WorkTwo";
 import About from "./components/About/About";
@@ -13,7 +13,7 @@ function App() {
     <>
       <section id="home" className="home">
         <Nav></Nav>
-        <Header></Header>
+        <Jumbotron></Jumbotron>
       </section>
         <WorkOne></WorkOne>
         <WorkTwo></WorkTwo>

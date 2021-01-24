@@ -10,15 +10,15 @@ export default function About() {
             <Container>
                 <Row>
                     <Col>
-                        <img width={500} className="mr-3 rounded" src={Profile} alt="Profile pic placeholder"/>
+                        <img width={500} className="mr-3" src={Profile} alt="Profile pic placeholder"/>
                     </Col>
-                    <Col><h2>Im Joris, a Dutch front-end developer 
+                    <Col><h2 className="mb-3">Im Joris, a Dutch front-end developer 
                     based in Norway.</h2>
                     <p>After 5 year as trainer, adviser and coach I decided to combine my past 
                         experience in organisational psychology with design and coding. 
-                        Building websites and that communicate effectively.
+                        Building websites and that communicate effectively.</p>
 
-                        When I am not researching, designing and coding I am wrestling with my 
+                        <p>When I am not researching, designing and coding I am wrestling with my 
                         two boys or rocking my little girl to sleep so I can use time on my other 
                         hobbies.
                     </p></Col>

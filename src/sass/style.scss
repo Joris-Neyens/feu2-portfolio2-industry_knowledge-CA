@@ -2,7 +2,7 @@ $primary: #FFFFFC;
 $secondary:  #7286A5;
 $accent: #F5AF19;
 
-$font-family-sans-serif:      bebas-neue-pro, sans-serif;
+$font-family-sans-serif: bebas-neue-pro, sans-serif;
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -12,3 +12,4 @@ $font-family-sans-serif:      bebas-neue-pro, sans-serif;
 @import "./components/button.scss";
 @import "./components/carousel.scss";
 @import "./base/typography.scss";
+@import "./pages/about.scss";
