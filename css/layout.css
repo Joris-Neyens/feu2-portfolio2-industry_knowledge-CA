@@ -1,0 +1,27 @@
+#root {
+  scroll-behavior: smooth;
+  overflow: scroll;
+  height: 100vh;
+  -ms-scroll-snap-type: proximity;
+      scroll-snap-type: proximity;
+  -ms-scroll-snap-points-y: repeat(100vh);
+      scroll-snap-points-y: repeat(100vh);
+  -ms-scroll-snap-type: y proximity;
+      scroll-snap-type: y proximity;
+}
+
+.home {
+  min-height: 100vh;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  scroll-snap-align: start;
+  position: relative;
+  min-height: 100vh;
+}
+/*# sourceMappingURL=layout.css.map */

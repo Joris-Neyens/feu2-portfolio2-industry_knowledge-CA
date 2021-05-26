@@ -1,0 +1,31 @@
+.carousel .carousel-item {
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.carousel {
+  max-height: 100vh;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../../images/chevron-left.svg) !important;
+  width: 30px !important;
+  height: 30px !important;
+  color: black !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../../images/chevron-right.svg) !important;
+  width: 30px !important;
+  height: 30px !important;
+  color: black !important;
+}
+
+.carousel-item img {
+  width: 90%;
+}
+/*# sourceMappingURL=carousel.css.map */
